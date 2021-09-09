@@ -1,0 +1,13 @@
+body{
+  background-image: url('backgroung.jpg');
+  background-position: center;
+}
+nav{
+  font-family: 'Azeret Mono', monospace;
+}
+<h1 style="color:white">
+  <a href="" class="typewrite" data-period="2000" style="color:white;"data-type='[ "Hi, Im Amit Mondal", "I am a Full Stack Developer.", "a Blogger" ]'>
+    <span class="wrap"></span>
+  </a> <br>
+  <i class="fab fa-github"></i>         <i class="fab fa-instagram"></i>
+</h1>

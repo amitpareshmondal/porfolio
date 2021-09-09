@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #152D35;
+}
+img{
+  border-radius: 70%;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+.compress{
+  border-radius: 40px;
+  height: 200px;
+}
+.flex-item-left {
+
+  padding: 10px;
+  flex: 30%;
+  margin-left: 10%;
+
+}
+.projects{
+  font-size: 3rem;
+  color: white;
+  text-align:center;
+}
+.flex-item-right {
+  padding: 10px;
+  flex: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  img{
+    width: 80%;
+    border-radius: 90%;
+  }
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+    width: 100;
+    margin-left:0;
+    margin-right: 0;
+  }
+  .flex-item-left{
+    margin-top: 10%;
+  }
+  .flex-item-right{
+    margin-top: 10%;
+  }
